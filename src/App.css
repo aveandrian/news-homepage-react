@@ -68,4 +68,8 @@ main {
   .topics-section {
     flex-direction: column;
   }
+
+  .topic-container  {
+    flex-direction: column;
+  }
 }
