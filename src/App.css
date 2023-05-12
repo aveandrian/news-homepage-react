@@ -201,6 +201,7 @@ main {
   .topics-section {
     display: flex;
     flex-direction: column;
+    align-items: start;
   }
 
   .main-section-title {
