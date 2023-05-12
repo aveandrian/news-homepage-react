@@ -19,16 +19,18 @@ function App() {
             </div>
           </div>
         </section>
-        <section className='new-section'>
-          <h1>New</h1> 
+         <section className='new-section'>
+          <h1 className='new-section-title'>New</h1> 
           <div className='new-article-container'>
             <h2 className='new-article-title'>Hydrogen VS Electric Cars</h2>
             <p className='new-article-descr'>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <div className='divider'></div>
           </div>
 
           <div className='new-article-container'>
             <h2 className='new-article-title'>The Downsides of AI Artistry</h2>
             <p className='new-article-descr'>What are the possible adverse effects of on-demand AI image generation?</p>
+            <div className='divider'></div>
           </div>
 
           <div className='new-article-container'>
@@ -36,9 +38,9 @@ function App() {
             <p className='new-article-descr'>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </div>
         </section>
-
+        
         <section className='topics-section'>
-          <div className='topic-container'>
+          <div className='topic-container topic-1'>
             <img src='/assets/images/image-retro-pcs.jpg' className='topic-img'></img>
             <div className='topic-descr-container'>
               <h1 className='topic-number'>01</h1>
@@ -47,8 +49,8 @@ function App() {
             </div>
           </div>
 
-          <div className='topic-container'>
-            <img src='/assets/images/image-retro-pcs.jpg' className='topic-img'></img>
+          <div className='topic-container topic-2'>
+            <img src='/assets/images/image-top-laptops.jpg' className='topic-img'></img>
             <div className='topic-descr-container'>
               <h1 className='topic-number'>02</h1>
               <h2 className='topic-title'>Top 10 Laptops of 2022</h2>
@@ -56,8 +58,8 @@ function App() {
             </div>
           </div>
 
-          <div className='topic-container'>
-            <img src='/assets/images/image-retro-pcs.jpg' className='topic-img'></img>
+          <div className='topic-container topic-3'>
+            <img src='/assets/images/image-gaming-growth.jpg' className='topic-img'></img>
             <div className='topic-descr-container'>
               <h1 className='topic-number'>03</h1>
               <h2 className='topic-title'>The Growth of Gaming</h2>
