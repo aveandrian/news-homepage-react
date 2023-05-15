@@ -19,4 +19,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+### Desktop:
+![image](https://github.com/aveandrian/news-homepage-react/assets/13519212/edfdb6d9-7411-4a90-af10-365e1e329541)
+
+### Mobile: 
+![image](https://github.com/aveandrian/news-homepage-react/assets/13519212/79908b7d-83d6-4838-a692-cd42918a4e16)
+
