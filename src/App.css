@@ -11,6 +11,13 @@ body {
   font-size: 0.938rem;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
   padding: 2.5rem 15.625rem;
   display: grid;
@@ -25,7 +32,6 @@ main {
   grid-template-columns: subgrid subgrid;
   grid-template-rows: subgrid;
   row-gap: 1.25rem;
-  /* gap: 1.25rem; */
 }
 
 .main-section > img {
@@ -175,6 +181,11 @@ main {
   font-size: 0.813rem;
   color: hsl(236, 13%, 42%);
 }
+
+footer {
+  text-align: center;
+}
+
 
 
 @media only screen and (max-width: 1150px) {
